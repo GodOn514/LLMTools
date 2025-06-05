@@ -1,0 +1,27 @@
+# ---------- OpenAI 配置 ----------
+[openai]
+api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+base_url = "https://api.openai.com/v1"
+model = "gpt-4o-mini"
+
+# ---------- DeepSeek 配置 ----------
+[deepseek]
+api_key = "ds-yyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+base_url = "https://api.deepseek.com"
+model = "deepseek-reasoner"
+
+# ---------- 数据库配置（任选其一） ----------
+[database]
+host = "127.0.0.1"
+port = 3306
+user = "db_user"
+password = "db_password"
+dbname = "your_database_name"
+
+# 如果你更喜欢写成 [mysql]，也可以用下面这段，注意只能保留一个节：
+# [mysql]
+# host = "127.0.0.1"
+# port = 3306
+# user = "db_user"
+# password = "db_password"
+# database = "your_database_name"
